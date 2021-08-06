@@ -45,5 +45,5 @@ Mounika Ganta,
 Celia Watson
 
 ## Acknowledgements per kaggle
-(Confidential Source) - Use only for educational purposes
+(Confidential Source) - Use only for educational purposes, 
 Kaggle contributor of dataset fedesoriano.
