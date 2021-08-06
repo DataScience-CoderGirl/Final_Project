@@ -40,8 +40,8 @@ SVM using SMOTE - recall has dropped to about 0.81 in this model with training a
 Logistic Regression using SMOTE - while this had the lowest of the recall amounts, its training and testing accuracy are much better and in line with each other, at 0.78 and 0.74 respectively.  This seems to be the most well balanced model. 
 
 ## Project Contributors:
-Sharon Bond
-Mounika Ganta
+Sharon Bond, 
+Mounika Ganta, 
 Celia Watson
 
 ## Acknowledgements per kaggle
