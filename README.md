@@ -37,7 +37,9 @@ KNearest Neighbor using SMOTE - the tradeoff in this model is a yet lower recall
 
 SVM using SMOTE - recall has dropped to about 0.81 in this model with training accuracy at 0.79 and testing accuracy at 0.72.  This model seems to be a closer fit for overall purposes.
 
-Logistic Regression using SMOTE - while this had the lowest of the recall amounts, its training and testing accuracy are much better and in line with each other, at 0.78 and 0.74 respectively.  This seems to be the most well balanced model. 
+Logistic Regression using SMOTE - while this had a lower recall amount, its training and testing accuracy are much better and in line with each other, at 0.78 and 0.74 respectively.  This seems to be the most well balanced model. 
+
+Bagging using SMOTE - with recall of 0.56 this is the lowest by far.  The training accuracy of 0.94 looked promising, but the test accuracy of 0.78 seems to indicate some overfitting.  This was the model with the highest test accuracy using SMOTE, however, further illustrating the tradeoff between the need for accuracy and recall.
 
 ## Project Contributors:
 Sharon Bond, 
