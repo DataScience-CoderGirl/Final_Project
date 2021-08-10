@@ -39,6 +39,12 @@ Logistic Regression using SMOTE - while this had a lower recall amount, its trai
 
 Bagging using SMOTE - with recall of 0.56 this is the lowest by far.  The training accuracy of 0.94 looked promising, but the test accuracy of 0.78 seems to indicate some overfitting.  This was the model with the highest test accuracy using SMOTE, however, further illustrating the tradeoff between the need for accuracy and recall.
 
+In an effort to better tune the AdaBoost and Decision Tree models, both were run using Repeated Stratified K Fold Cross Validation.  Some of the folds of these models performed very well with higher that 80% on both precision and recall, however ultimately both ended up with a mean recall of 0.66 and mean accuracy of 0.79. Stratified K Fold definitely helped to increase the reliability of these models by eliminating much of the overfitting.
+
+## Conclusion
+
+Given the limitations of the datasets small minority group and the nature of the features available, we recommend the Logistic Regression model using SMOTE as the best model.  It's generally good recall in addition to the balance between training accuracy and testing accuracy best fit our goals.   
+
 ## Project Contributors:
 Sharon Bond, 
 Mounika Ganta, 
